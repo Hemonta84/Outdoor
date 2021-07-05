@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+h1,h2,h3,h4,h5,h6,a,input,button,span{
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background: linear-gradient(#ff000082,#0000008f), url(../image/waterfall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.headerdata{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    width: 170px;
+    margin-top: -12px;
+}
+.manu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.manu ul {
+    display: inline-block;
+}
+
+.manu ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.manu button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.headertext{
+    text-align: center;
+    margin-top: 130px;
+}
+.headertext h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    word-spacing: 3px;
+    margin-bottom: 15px;
+}
+.headertext .icon {
+    width: 106px;
+    height: 3px;
+    background: #d6899c;
+    margin-left: 50%;
+    margin-bottom: 30px;
+    transform: translateX(-50%);
+}
+.headertext h1{
+    font-size: 43px;
+    color: white;
+    font-family: arial black;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.headertext button {
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background: #069687;
+    border-radius: 26px;
+}
+
+.header-quota{
+    background: #f4f5f9;
+    text-align: center;
+    padding: 50px 0px;
+    position: relative;
+}
+.header-quota p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #4c5863;
+}
+
+.header-quota h3 {
+    color: #8c949c;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 11px;
+}
+.quota h3:before {
+    width: 8px;
+    height: 3px;
+    background: #8c949c;
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 57%;
+   
+}
+.quotaWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.quotaWrapper .icon {
+    color: white;
+    font-size: 70px;
+    margin-right: 50px;
+}
+
+.quotaWrapper.quota {
+    position: relative;
+}
+
+
+section#events {
+    padding-top: 140px;
+    margin-bottom: 125px;
+}
+
+.eventContent {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.eventContent h2 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.eventContent .line {
+    width: 70px;
+    height: 4px;
+    background: red;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 70px;
+}
+
+.boxes {
+    display: flex;
+    /* margin-bottom: 40px; */
+    justify-content: space-evenly;
+}
+.boxImg img {
+    box-shadow: 8px 8px 8px 0px #cecece;
+}
+
+.boxes .box-1,.boxes .box-2 {
+    width: 480px;
+}
+
+.box-1 .boxImg,.box-2 .boxImg {
+    margin-bottom: 20px;
+}
+
+.box-1 .boxInfo,.box-2 .boxInfo {
+    padding: 10px;
+    text-align: center;
+}
+.boxInfo h3{
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #222222e0;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1.6px;
+}
+.boxInfo p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 15px;
+    color: #4c586de6;
+    letter-spacing: .7px;
+}
+.boxinfoIcon a {
+    font-size: 13px;
+    color: #fb2056;
+    font-weight: 600;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.boxinfoIcon a i {
+    font-size: 16px;
+}
+
+#explore{
+    background: linear-gradient(to bottom,#463730a3,#2f402f94),url(../image/lake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding-bottom: 200px;
+}
+.exploreText {
+    text-align: left;
+    width: 580px;
+    float: right;
+    padding: 100px 0px;
+}
+
+.exploreText h1 {
+    font-size: 61px;
+    font-family: arial black;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+.exploreText p {
+    color: #ffffffe6;
+    font-size: 17px;
+    letter-spacing: 1.3px;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+.boxinfoIcon1 a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.exploreText .icon {
+    width: 100px;
+    height: 5px;
+    background: #a98a7fde;
+    margin-bottom: 40px;
+}
+
+
+#worldTour{
+    padding: 140px 0px;
+}
+.travellboxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tourbox-1,.tourbox-2,.tourbox-3{
+    width: 357px;
+}
+.tourbox-2 img,.tourbox-3 img {
+    width: 100%;
+    margin: 7px;
+}
+.tourbox-1 {
+    padding: 16px;
+}
+
+.tourbox-1 h2 {
+    font-size: 52px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+.tourbox-1 .icon {
+    width: 70px;
+    height: 4px;
+    background: red;
+    margin-bottom: 30px;
+}
+
+.tourbox-1 p {
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #1a1010b8;
+    letter-spacing: .5px;
+    margin-bottom: 30px;
+}
+.tourbox-1 button{
+    border: none;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    color: #ffffffd9;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    background: #fb2056;
+    border-radius: 40px;
+}
+#footer{
+    background: #191919;
+    padding: 40px 0px;
+}
+.copyright {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.copyright p {
+    margin: 20px;
+    letter-spacing: 1.6px;
+    word-spacing: 4px;
+    font-weight: normal;
+    color: #afd3d3;
+}
